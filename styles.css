@@ -1,0 +1,104 @@
+h1{
+    margin: 10px;
+    padding: 10px;
+    color: #0a0a0a; /* Teal color */
+    text-align: center;
+    font-family: 'Gill Sans'; 
+    font-size: 2em;
+    
+}
+
+p{
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    background-image: url('https://lh3.googleusercontent.com/pw/ADCreHdIaEFodG7kM1Zsklnt9-PI2o0yr-Kk59pBeDEY0GU09kSIsJHivX3f39Yi8mTTZWz9fiCMPRnXxSot5_7GbrtjPxknAN-VAAX17KJf2n9Ze9YKd5P0=w2400') ;
+    background-size: cover; /*cover = photo covers whole background*/
+    background-position: center 30%;  /* controls vertical positioning of background */
+    color: #181616;
+}
+
+form {
+
+    background-color: #fff; 
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #575656;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical; /* When use type more words Allow vertical resizing of textarea */
+}
+
+button {
+    background-color: #008080;
+    color: #fff;
+    padding: 10px 20px; 
+    border: 12px black;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #006666;  /*pseduo class hover */
+}
+
+/* Style radio and checkbox inputs */
+input[type="radio"],
+input[type="checkbox"] {
+    background-color: #0a0a0a;
+    margin-right: 5px;
+}
+
+/* Add some spacing for readability */
+label[for="radio-label"],
+label[for="check-label"] {
+    display: block;
+    margin-top: 10px;
+    
+}
+
+/* Add a bit of margin to the submit button */
+#submit {
+    margin-top: 10px;
+}
+
+
+#thanks{
+    text-align: center;
+    font-size: 4em;
+}
+
+
+
+
+
+
+
+
